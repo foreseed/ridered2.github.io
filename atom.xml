@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  
+  <link href="https://github.com/foreseed/ridered2.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://github.com/foreseed/ridered2.github.io/"/>
+  <updated>2023-04-03T13:49:03.680Z</updated>
+  <id>https://github.com/foreseed/ridered2.github.io/</id>
+  
+  <author>
+    <name>ridered</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>极限笔记</title>
+    <link href="https://github.com/foreseed/ridered2.github.io/2023/04/03/ji-xian/"/>
+    <id>https://github.com/foreseed/ridered2.github.io/2023/04/03/ji-xian/</id>
+    <published>2023-04-03T11:17:00.000Z</published>
+    <updated>2023-04-03T13:49:03.680Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;极限部分&quot;&gt;&lt;a href=&quot;#极限部分&quot; class=&quot;headerlink&quot; title=&quot;极限部分&quot;&gt;&lt;/a&gt;极限部分&lt;/h2&gt;&lt;h3 id=&quot;1-认识极限&quot;&gt;&lt;a href=&quot;#1-认识极限&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="高数" scheme="https://github.com/foreseed/ridered2.github.io/tags/%E9%AB%98%E6%95%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Vue</title>
+    <link href="https://github.com/foreseed/ridered2.github.io/2023/03/20/vue/"/>
+    <id>https://github.com/foreseed/ridered2.github.io/2023/03/20/vue/</id>
+    <published>2023-03-20T10:41:13.000Z</published>
+    <updated>2023-03-20T10:41:31.841Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>英语单词</title>
+    <link href="https://github.com/foreseed/ridered2.github.io/2023/03/16/ying-yu-dan-ci/"/>
+    <id>https://github.com/foreseed/ridered2.github.io/2023/03/16/ying-yu-dan-ci/</id>
+    <published>2023-03-16T14:20:25.000Z</published>
+    <updated>2023-04-03T14:01:21.361Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;一-词根-van-ven-vent-come-go-来，走来&quot;&gt;&lt;a href=&quot;#一-词根-van-ven-vent-come-go-来，走来&quot; class=&quot;headerlink&quot; title=&quot;一.词根 -van,-ven,-vent = come,go</summary>
+        
+      
+    
+    
+    
+    
+    <category term="英语" scheme="https://github.com/foreseed/ridered2.github.io/tags/%E8%8B%B1%E8%AF%AD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>pandas Series创建</title>
+    <link href="https://github.com/foreseed/ridered2.github.io/2023/03/16/pandas-series/"/>
+    <id>https://github.com/foreseed/ridered2.github.io/2023/03/16/pandas-series/</id>
+    <published>2023-03-16T13:12:33.000Z</published>
+    <updated>2023-03-25T07:48:39.478Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;pandas-Series创建&quot;&gt;&lt;a href=&quot;#pandas-Series创建&quot; class=&quot;headerlink&quot; title=&quot;pandas Series创建&quot;&gt;&lt;/a&gt;pandas Series创建&lt;/h2&gt;&lt;pre class=&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>vue-cli</title>
+    <link href="https://github.com/foreseed/ridered2.github.io/2023/03/16/vue-cli/"/>
+    <id>https://github.com/foreseed/ridered2.github.io/2023/03/16/vue-cli/</id>
+    <published>2023-03-16T13:12:33.000Z</published>
+    <updated>2023-03-16T13:13:04.577Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://github.com/foreseed/ridered2.github.io/2023/03/16/hello-world/"/>
+    <id>https://github.com/foreseed/ridered2.github.io/2023/03/16/hello-world/</id>
+    <published>2023-03-16T10:49:13.635Z</published>
+    <updated>2023-03-16T10:48:41.189Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
