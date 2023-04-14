@@ -6,7 +6,7 @@
   <link href="https://github.com/foreseed/ridered2.github.io/atom.xml" rel="self"/>
   
   <link href="https://github.com/foreseed/ridered2.github.io/"/>
-  <updated>2023-04-03T13:49:03.680Z</updated>
+  <updated>2023-04-13T11:37:25.413Z</updated>
   <id>https://github.com/foreseed/ridered2.github.io/</id>
   
   <author>
@@ -15,6 +15,75 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>组件库</title>
+    <link href="https://github.com/foreseed/ridered2.github.io/2023/04/13/zu-jian-ku/"/>
+    <id>https://github.com/foreseed/ridered2.github.io/2023/04/13/zu-jian-ku/</id>
+    <published>2023-04-13T10:07:39.000Z</published>
+    <updated>2023-04-13T11:37:25.413Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;一、组件安装&quot;&gt;&lt;a href=&quot;#一、组件安装&quot; class=&quot;headerlink&quot; title=&quot;一、组件安装&quot;&gt;&lt;/a&gt;一、组件安装&lt;/h3&gt;&lt;pre class=&quot; language-npm&quot;&gt;&lt;code</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Vue-cli" scheme="https://github.com/foreseed/ridered2.github.io/tags/Vue-cli/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>算法</title>
+    <link href="https://github.com/foreseed/ridered2.github.io/2023/04/09/suan-fa/"/>
+    <id>https://github.com/foreseed/ridered2.github.io/2023/04/09/suan-fa/</id>
+    <published>2023-04-09T07:35:03.000Z</published>
+    <updated>2023-04-09T07:54:21.959Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;第一题&quot;&gt;&lt;a href=&quot;#第一题&quot; class=&quot;headerlink&quot; title=&quot;第一题&quot;&gt;&lt;/a&gt;第一题&lt;/h3&gt;&lt;h5 id=&quot;创建一个函数，它接受两个或更多数组，并返回它们的对称差异数组。返回的数组必须只包含唯一值（没有重复项）。&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="算法" scheme="https://github.com/foreseed/ridered2.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>博客挂载域名</title>
+    <link href="https://github.com/foreseed/ridered2.github.io/2023/04/08/bo-ke-gua-zai-yu-ming/"/>
+    <id>https://github.com/foreseed/ridered2.github.io/2023/04/08/bo-ke-gua-zai-yu-ming/</id>
+    <published>2023-04-08T07:02:17.000Z</published>
+    <updated>2023-04-08T07:13:49.188Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;自己的博客如何挂载域名&quot;&gt;&lt;a href=&quot;#自己的博客如何挂载域名&quot; class=&quot;headerlink&quot; title=&quot;自己的博客如何挂载域名&quot;&gt;&lt;/a&gt;自己的博客如何挂载域名&lt;/h3&gt;&lt;h5 id=&quot;要挂载域名，您需要完成以下步骤：&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="域名" scheme="https://github.com/foreseed/ridered2.github.io/tags/%E5%9F%9F%E5%90%8D/"/>
+    
+  </entry>
   
   <entry>
     <title>极限笔记</title>
@@ -36,19 +105,6 @@
     
     
     <category term="高数" scheme="https://github.com/foreseed/ridered2.github.io/tags/%E9%AB%98%E6%95%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Vue</title>
-    <link href="https://github.com/foreseed/ridered2.github.io/2023/03/20/vue/"/>
-    <id>https://github.com/foreseed/ridered2.github.io/2023/03/20/vue/</id>
-    <published>2023-03-20T10:41:13.000Z</published>
-    <updated>2023-03-20T10:41:31.841Z</updated>
-    
-    
-    
-    
     
   </entry>
   
@@ -90,19 +146,6 @@
     <summary type="html">&lt;h2 id=&quot;pandas-Series创建&quot;&gt;&lt;a href=&quot;#pandas-Series创建&quot; class=&quot;headerlink&quot; title=&quot;pandas Series创建&quot;&gt;&lt;/a&gt;pandas Series创建&lt;/h2&gt;&lt;pre class=&quot;</summary>
         
       
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>vue-cli</title>
-    <link href="https://github.com/foreseed/ridered2.github.io/2023/03/16/vue-cli/"/>
-    <id>https://github.com/foreseed/ridered2.github.io/2023/03/16/vue-cli/</id>
-    <published>2023-03-16T13:12:33.000Z</published>
-    <updated>2023-03-16T13:13:04.577Z</updated>
-    
     
     
     

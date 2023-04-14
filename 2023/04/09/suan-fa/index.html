@@ -4,8 +4,10 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="极限笔记, Hexo">
-    <meta name="description" content="极限部分1.认识极限极限式如$\lim_{n\rightarrow+\infty}f(x)$ ，含义是：当x向某个值（或无穷远处）处靠近时，f(x)向哪个值靠近。怎样理解极限极限过程是一个动态的过程，不是一个“死”的数字。而至于$\lim$">
+    <meta name="keywords" content="算法, Hexo">
+    <meta name="description" content="第一题创建一个函数，它接受两个或更多数组，并返回它们的对称差异数组。返回的数组必须只包含唯一值（没有重复项）。function sym(...args) &amp;amp;#123;
+  // 将所有参数转换为集合，去除重复值
+  const se">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +19,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>极限笔记 | Hexo</title>
+    <title>算法 | Hexo</title>
     <link rel="icon" type="image/png" href="/foreseed/ridered2.github.io/favicon.png">
     
 
@@ -339,12 +341,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/foreseed/ridered2.github.io/medias/featureimages/11.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/foreseed/ridered2.github.io/medias/featureimages/22.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">极限笔记</h1>
+                    <h1 class="description center-align post-title">算法</h1>
                 </div>
             </div>
         </div>
@@ -368,8 +370,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/foreseed/ridered2.github.io/tags/%E9%AB%98%E6%95%B0/">
-                                <span class="chip bg-color">高数</span>
+                            <a href="/foreseed/ridered2.github.io/tags/%E7%AE%97%E6%B3%95/">
+                                <span class="chip bg-color">算法</span>
                             </a>
                         
                     </div>
@@ -384,7 +386,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2023-04-03
+                    2023-04-09
                 </div>
                 
 
@@ -393,7 +395,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    916
+                    694
                 </div>
                 
 
@@ -410,23 +412,72 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="极限部分"><a href="#极限部分" class="headerlink" title="极限部分"></a>极限部分</h2><h3 id="1-认识极限"><a href="#1-认识极限" class="headerlink" title="1.认识极限"></a>1.认识极限</h3><h6 id="极限式如-lim-n-rightarrow-infty-f-x-，含义是：当x向某个值（或无穷远处）处靠近时，f-x-向哪个值靠近。"><a href="#极限式如-lim-n-rightarrow-infty-f-x-，含义是：当x向某个值（或无穷远处）处靠近时，f-x-向哪个值靠近。" class="headerlink" title="极限式如$\lim_{n\rightarrow+\infty}f(x)$ ，含义是：当x向某个值（或无穷远处）处靠近时，f(x)向哪个值靠近。"></a>极限式如$\lim_{n\rightarrow+\infty}f(x)$ ，含义是：当x向某个值（或无穷远处）处靠近时，f(x)向哪个值靠近。</h6><h6 id="怎样理解极限"><a href="#怎样理解极限" class="headerlink" title="怎样理解极限"></a>怎样理解极限</h6><h6 id="极限过程是一个动态的过程，不是一个“死”的数字。而至于-lim-符号，是解算出接近的目标。要体会x–-gt-a和x-a之间的区别。并且，x–-gt-a-时，-x-a-是无穷小的，所以我们研究时大部分时候都是在和“无穷小”以及“无穷大”打交道。"><a href="#极限过程是一个动态的过程，不是一个“死”的数字。而至于-lim-符号，是解算出接近的目标。要体会x–-gt-a和x-a之间的区别。并且，x–-gt-a-时，-x-a-是无穷小的，所以我们研究时大部分时候都是在和“无穷小”以及“无穷大”打交道。" class="headerlink" title="极限过程是一个动态的过程，不是一个“死”的数字。而至于$\lim$符号，是解算出接近的目标。要体会x–&gt;a和x = a之间的区别。并且，x–&gt;a 时，(x-a) 是无穷小的，所以我们研究时大部分时候都是在和“无穷小”以及“无穷大”打交道。"></a>极限过程是一个动态的过程，不是一个“死”的数字。而至于$\lim$符号，是解算出接近的目标。要体会x–&gt;a和x = a之间的区别。并且，x–&gt;a 时，(x-a) 是无穷小的，所以我们研究时大部分时候都是在和“无穷小”以及“无穷大”打交道。</h6><h3 id="2-求函数极限"><a href="#2-求函数极限" class="headerlink" title="2.求函数极限"></a>2.求函数极限</h3><h6 id="第一步，代入：将自变量极限值代入极限表达式，如果不能得到结果，继续下一步；"><a href="#第一步，代入：将自变量极限值代入极限表达式，如果不能得到结果，继续下一步；" class="headerlink" title="第一步，代入：将自变量极限值代入极限表达式，如果不能得到结果，继续下一步；"></a>第一步，代入：将自变量极限值代入极限表达式，如果不能得到结果，继续下一步；</h6><h6 id="第二步，分类：判断极限类型属于-frac-0-0-、-frac-infty-infty-、-1-infty-、-infty-–-infty-、-0-times-infty-、-infty-0-中的哪一种，重点是识别出式中的无穷小和无穷大成分；"><a href="#第二步，分类：判断极限类型属于-frac-0-0-、-frac-infty-infty-、-1-infty-、-infty-–-infty-、-0-times-infty-、-infty-0-中的哪一种，重点是识别出式中的无穷小和无穷大成分；" class="headerlink" title="第二步，分类：判断极限类型属于 $\frac{0}{0}$ 、$\frac{\infty}{\infty}$ 、$1^\infty $、$\infty –\infty $、$ 0\times\infty$、$\infty^0$ 中的哪一种，重点是识别出式中的无穷小和无穷大成分；"></a>第二步，分类：判断极限类型属于 $\frac{0}{0}$ 、$\frac{\infty}{\infty}$ 、$1^\infty $、$\infty –\infty $、$ 0\times\infty$、$\infty^0$ 中的哪一种，重点是识别出式中的无穷小和无穷大成分；</h6><h6 id="第三步，求解：根据极限类型，选择分别适用的求解方法，进行化简或者变形"><a href="#第三步，求解：根据极限类型，选择分别适用的求解方法，进行化简或者变形" class="headerlink" title="第三步，求解：根据极限类型，选择分别适用的求解方法，进行化简或者变形"></a>第三步，求解：根据极限类型，选择分别适用的求解方法，进行化简或者变形</h6><h5 id="代入时，需要注意三点问题："><a href="#代入时，需要注意三点问题：" class="headerlink" title="代入时，需要注意三点问题："></a>代入时，需要注意三点问题：</h5><h6 id="①-frac-1-infty-0-frac-1-0-infty-无穷大与无穷小之间呈倒数关系；"><a href="#①-frac-1-infty-0-frac-1-0-infty-无穷大与无穷小之间呈倒数关系；" class="headerlink" title="①$\frac{1}{\infty}$=0,$ \frac{1}{0}=\infty$无穷大与无穷小之间呈倒数关系；"></a>①$\frac{1}{\infty}$=0,$ \frac{1}{0}=\infty$无穷大与无穷小之间呈倒数关系；</h6><h6 id="②无穷小-times-有界函数-无穷小"><a href="#②无穷小-times-有界函数-无穷小" class="headerlink" title="②无穷小$\times$有界函数=无穷小."></a>②无穷小$\times$有界函数=无穷小.</h6><h6 id="③需要注意极限的方向性问题，区分”x–-gt-infty-”-”x–-gt-infty-”"><a href="#③需要注意极限的方向性问题，区分”x–-gt-infty-”-”x–-gt-infty-”" class="headerlink" title="③需要注意极限的方向性问题，区分”x–&gt;+$\infty$”,”x–&gt;-$\infty$”"></a>③需要注意极限的方向性问题，区分”x–&gt;+$\infty$”,”x–&gt;-$\infty$”</h6><h3 id="3-方法总结"><a href="#3-方法总结" class="headerlink" title="3.方法总结"></a>3.方法总结</h3><h6 id="对于无穷小相关的极限，我们可采用的方法有："><a href="#对于无穷小相关的极限，我们可采用的方法有：" class="headerlink" title="对于无穷小相关的极限，我们可采用的方法有："></a>对于无穷小相关的极限，我们可采用的方法有：</h6><h6 id="（1）化简：消除“致-0-因子”"><a href="#（1）化简：消除“致-0-因子”" class="headerlink" title="（1）化简：消除“致 0 因子”"></a>（1）化简：消除“致 0 因子”</h6><h6 id="（2）等价无穷小代换"><a href="#（2）等价无穷小代换" class="headerlink" title="（2）等价无穷小代换"></a>（2）等价无穷小代换</h6><h6 id="（3）洛必达法则。"><a href="#（3）洛必达法则。" class="headerlink" title="（3）洛必达法则。"></a>（3）洛必达法则。</h6><h6 id="常用的等价无穷小代换：当-时，下列表格中右侧的无穷小量可以用左侧的替换"><a href="#常用的等价无穷小代换：当-时，下列表格中右侧的无穷小量可以用左侧的替换" class="headerlink" title="常用的等价无穷小代换：当 时，下列表格中右侧的无穷小量可以用左侧的替换"></a>常用的等价无穷小代换：当 时，下列表格中右侧的无穷小量可以用左侧的替换</h6><table>
-<thead>
-<tr>
-<th>x</th>
-<th>sinx tanx arcsinx  arctanx ln(1+x) e*x - 1</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>ax</td>
-<td>[(1+x)*a -1]</td>
-</tr>
-<tr>
-<td>x*2/2</td>
-<td>1-cosx</td>
-</tr>
-</tbody></table>
-<h6 id="Tips：函数f-x-如果过原点，即-f-0-0，而且导数有f’-0-a-，则在-x–-gt-0时，-可以和-f-x-等价无穷小代换。"><a href="#Tips：函数f-x-如果过原点，即-f-0-0，而且导数有f’-0-a-，则在-x–-gt-0时，-可以和-f-x-等价无穷小代换。" class="headerlink" title="Tips：函数f(x) 如果过原点，即 f(0)=0，而且导数有f’(0)=a ，则在 x–&gt;0时， 可以和 f(x)等价无穷小代换。"></a>Tips：函数f(x) 如果过原点，即 f(0)=0，而且导数有f’(0)=a ，则在 x–&gt;0时， 可以和 f(x)等价无穷小代换。</h6><h5 id="使用等价无穷小代换时，需要关注以下三个细节："><a href="#使用等价无穷小代换时，需要关注以下三个细节：" class="headerlink" title="使用等价无穷小代换时，需要关注以下三个细节："></a>使用等价无穷小代换时，需要关注以下三个细节：</h5><h6 id="（1）无穷小才能换！"><a href="#（1）无穷小才能换！" class="headerlink" title="（1）无穷小才能换！"></a>（1）无穷小才能换！</h6><h6 id="（2）要学会“抓住”无穷小，如果x–-gt-0-，则相应的-ax也是无穷小。如果x–a-a-not-0-，此时就要从式子中凑出-x-a-这个量"><a href="#（2）要学会“抓住”无穷小，如果x–-gt-0-，则相应的-ax也是无穷小。如果x–a-a-not-0-，此时就要从式子中凑出-x-a-这个量" class="headerlink" title="（2）要学会“抓住”无穷小，如果x–&gt;0 ，则相应的 ax也是无穷小。如果x–a(a$\not ={0}$) ，此时就要从式子中凑出 (x-a)这个量"></a>（2）要学会“抓住”无穷小，如果x–&gt;0 ，则相应的 ax也是无穷小。如果x–a(a$\not ={0}$) ，此时就要从式子中凑出 (x-a)这个量</h6><h6 id="（3）两个无穷小量相加减时，不可将其中任意一个部分进行代换"><a href="#（3）两个无穷小量相加减时，不可将其中任意一个部分进行代换" class="headerlink" title="（3）两个无穷小量相加减时，不可将其中任意一个部分进行代换"></a>（3）两个无穷小量相加减时，不可将其中任意一个部分进行代换</h6><h5 id="使用洛必达方法，请注意其使用条件："><a href="#使用洛必达方法，请注意其使用条件：" class="headerlink" title="使用洛必达方法，请注意其使用条件："></a>使用洛必达方法，请注意其使用条件：</h5><h6 id="（1）必须只能在-frac-0-0-或者-frac-infty-infty-型的极限中使用；"><a href="#（1）必须只能在-frac-0-0-或者-frac-infty-infty-型的极限中使用；" class="headerlink" title="（1）必须只能在 $\frac{0}{0}或者 $\frac{\infty}{\infty}$型的极限中使用；"></a>（1）必须只能在 $\frac{0}{0}或者 $\frac{\infty}{\infty}$型的极限中使用；</h6><h6 id="（2）分子分母的函数必须有连续的导数"><a href="#（2）分子分母的函数必须有连续的导数" class="headerlink" title="（2）分子分母的函数必须有连续的导数"></a>（2）分子分母的函数必须有连续的导数</h6><h5 id="解决无穷大类型问题的方法：“抓大头”的思想理念，抓住主要矛盾，忽略次要成分："><a href="#解决无穷大类型问题的方法：“抓大头”的思想理念，抓住主要矛盾，忽略次要成分：" class="headerlink" title="解决无穷大类型问题的方法：“抓大头”的思想理念，抓住主要矛盾，忽略次要成分："></a>解决无穷大类型问题的方法：“抓大头”的思想理念，抓住主要矛盾，忽略次要成分：</h5><h6 id="ln-x-lt-lt-x-a-lt-lt-x-b-lt-lt-c-x-lt-lt-d-x-lt-lt-x-lt-lt-x-x-x–-gt-infty-0-lt-a-lt-b-1-lt-c-lt-d"><a href="#ln-x-lt-lt-x-a-lt-lt-x-b-lt-lt-c-x-lt-lt-d-x-lt-lt-x-lt-lt-x-x-x–-gt-infty-0-lt-a-lt-b-1-lt-c-lt-d" class="headerlink" title="$ln$x &lt;&lt; $x^a$ &lt;&lt; $x^b$ &lt;&lt; $c^x$ &lt;&lt; $d^x$ &lt;&lt; $x!$ &lt;&lt; $x^x$(x–&gt;$\infty$,0&lt;a&lt;b,1&lt;c&lt;d,)."></a>$ln$x &lt;&lt; $x^a$ &lt;&lt; $x^b$ &lt;&lt; $c^x$ &lt;&lt; $d^x$ &lt;&lt; $x!$ &lt;&lt; $x^x$(x–&gt;$\infty$,0&lt;a&lt;b,1&lt;c&lt;d,).</h6><h6 id="当两个相差无穷倍的量相进行加减时，这时候我们眼里可以忽略相对较小的一个量。在具体操作上，应该将最大的成分提括号外，分子分母同时除掉即可。"><a href="#当两个相差无穷倍的量相进行加减时，这时候我们眼里可以忽略相对较小的一个量。在具体操作上，应该将最大的成分提括号外，分子分母同时除掉即可。" class="headerlink" title="当两个相差无穷倍的量相进行加减时，这时候我们眼里可以忽略相对较小的一个量。在具体操作上，应该将最大的成分提括号外，分子分母同时除掉即可。"></a>当两个相差无穷倍的量相进行加减时，这时候我们眼里可以忽略相对较小的一个量。在具体操作上，应该将最大的成分提括号外，分子分母同时除掉即可。</h6><h3 id="4-极限运算法则"><a href="#4-极限运算法则" class="headerlink" title="4.极限运算法则"></a>4.极限运算法则</h3><h6 id="如果极限-存在，则："><a href="#如果极限-存在，则：" class="headerlink" title="如果极限 存在，则："></a>如果极限 存在，则：</h6><h6 id="lim-u-pm-v-lim-u-pm-lim-v"><a href="#lim-u-pm-v-lim-u-pm-lim-v" class="headerlink" title="$lim(u \pm v)= lim u \pm lim v$"></a>$lim(u \pm v)= lim u \pm lim v$</h6><h6 id="lim-u-times-v-lim-u-times-lim-v"><a href="#lim-u-times-v-lim-u-times-lim-v" class="headerlink" title="$lim(u \times v)= lim u \times lim v$"></a>$lim(u \times v)= lim u \times lim v$</h6><h6 id="lim-frac-u-v-frac-lim-u-lim-v"><a href="#lim-frac-u-v-frac-lim-u-lim-v" class="headerlink" title="$lim\frac{u}{v} = \frac{lim u}{lim v}$"></a>$lim\frac{u}{v} = \frac{lim u}{lim v}$</h6><h6 id="在处理极限的时候，我们可以选择将极限进行部分地运算"><a href="#在处理极限的时候，我们可以选择将极限进行部分地运算" class="headerlink" title="在处理极限的时候，我们可以选择将极限进行部分地运算"></a>在处理极限的时候，我们可以选择将极限进行部分地运算</h6><h2 id="函数的连续性与间断点判断"><a href="#函数的连续性与间断点判断" class="headerlink" title="函数的连续性与间断点判断"></a>函数的连续性与间断点判断</h2><h6 id="函数连续性应满足条件：-lim-x-rightarrow-a-f-x-f-a-（着重体会x–-gt-a-和-x-a的区别）该条件意味着函数图像应该是一条连续的线条，不会有断点。我们接触到的函数，断点往往会出现在这两种地方：分段函数的分界点、函数定义域的边界。"><a href="#函数连续性应满足条件：-lim-x-rightarrow-a-f-x-f-a-（着重体会x–-gt-a-和-x-a的区别）该条件意味着函数图像应该是一条连续的线条，不会有断点。我们接触到的函数，断点往往会出现在这两种地方：分段函数的分界点、函数定义域的边界。" class="headerlink" title="函数连续性应满足条件：$\lim_{x\rightarrow a}f(x)=f(a)$  .（着重体会x–&gt;a 和 x=a的区别）该条件意味着函数图像应该是一条连续的线条，不会有断点。我们接触到的函数，断点往往会出现在这两种地方：分段函数的分界点、函数定义域的边界。"></a>函数连续性应满足条件：$\lim_{x\rightarrow a}f(x)=f(a)$  .（着重体会x–&gt;a 和 x=a的区别）该条件意味着函数图像应该是一条连续的线条，不会有断点。我们接触到的函数，断点往往会出现在这两种地方：分段函数的分界点、函数定义域的边界。</h6>
+                <h3 id="第一题"><a href="#第一题" class="headerlink" title="第一题"></a>第一题</h3><h5 id="创建一个函数，它接受两个或更多数组，并返回它们的对称差异数组。返回的数组必须只包含唯一值（没有重复项）。"><a href="#创建一个函数，它接受两个或更多数组，并返回它们的对称差异数组。返回的数组必须只包含唯一值（没有重复项）。" class="headerlink" title="创建一个函数，它接受两个或更多数组，并返回它们的对称差异数组。返回的数组必须只包含唯一值（没有重复项）。"></a>创建一个函数，它接受两个或更多数组，并返回它们的对称差异数组。返回的数组必须只包含唯一值（没有重复项）。</h5><pre class=" language-javascript"><code class="language-javascript"><span class="token keyword">function</span> <span class="token function">sym</span><span class="token punctuation">(</span><span class="token operator">...</span>args<span class="token punctuation">)</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+  <span class="token comment" spellcheck="true">// 将所有参数转换为集合，去除重复值</span>
+  <span class="token keyword">const</span> sets <span class="token operator">=</span> args<span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span>arg <span class="token operator">=</span><span class="token operator">></span> <span class="token keyword">new</span> <span class="token class-name">Set</span><span class="token punctuation">(</span>arg<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  
+  <span class="token comment" spellcheck="true">// 计算对称差并将结果保存在result中</span>
+  <span class="token keyword">let</span> result <span class="token operator">=</span> sets<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+  <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">let</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> sets<span class="token punctuation">.</span>length<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+    <span class="token keyword">const</span> s <span class="token operator">=</span> sets<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>
+    result <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Set</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token operator">...</span>result<span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">filter</span><span class="token punctuation">(</span>x <span class="token operator">=</span><span class="token operator">></span> <span class="token operator">!</span>s<span class="token punctuation">.</span><span class="token function">has</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">concat</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token operator">...</span>s<span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">filter</span><span class="token punctuation">(</span>x <span class="token operator">=</span><span class="token operator">></span> <span class="token operator">!</span>result<span class="token punctuation">.</span><span class="token function">has</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
+  
+  <span class="token comment" spellcheck="true">// 将结果转换为数组并返回</span>
+  <span class="token keyword">return</span> <span class="token punctuation">[</span><span class="token operator">...</span>result<span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
+</code></pre>
+<h5 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h5><h6 id="该函数使用了-rest-parameter-…args，它允许我们传入任意数量的数组。首先将所有参数转换为集合，然后使用-Set-和-Array-方法计算它们的对称差，并将结果存储在-result-变量中。最后，将结果转换为数组并返回。"><a href="#该函数使用了-rest-parameter-…args，它允许我们传入任意数量的数组。首先将所有参数转换为集合，然后使用-Set-和-Array-方法计算它们的对称差，并将结果存储在-result-变量中。最后，将结果转换为数组并返回。" class="headerlink" title="该函数使用了 rest parameter …args，它允许我们传入任意数量的数组。首先将所有参数转换为集合，然后使用 Set 和 Array 方法计算它们的对称差，并将结果存储在 result 变量中。最后，将结果转换为数组并返回。"></a>该函数使用了 rest parameter …args，它允许我们传入任意数量的数组。首先将所有参数转换为集合，然后使用 Set 和 Array 方法计算它们的对称差，并将结果存储在 result 变量中。最后，将结果转换为数组并返回。</h6><h3 id="第二题"><a href="#第二题" class="headerlink" title="第二题"></a>第二题</h3><h5 id="编写一个函数updateInventory，比较并更新存储在二维数组中的库存与新库存的二维数组。更新现有库存项目的数量（在arr1中）。如果找不到该项，则将新的项目和数量添加到库存数组中。返回的库存数组应按项字母顺序排列。函数updateInventory应返回一个数组。"><a href="#编写一个函数updateInventory，比较并更新存储在二维数组中的库存与新库存的二维数组。更新现有库存项目的数量（在arr1中）。如果找不到该项，则将新的项目和数量添加到库存数组中。返回的库存数组应按项字母顺序排列。函数updateInventory应返回一个数组。" class="headerlink" title="编写一个函数updateInventory，比较并更新存储在二维数组中的库存与新库存的二维数组。更新现有库存项目的数量（在arr1中）。如果找不到该项，则将新的项目和数量添加到库存数组中。返回的库存数组应按项字母顺序排列。函数updateInventory应返回一个数组。"></a>编写一个函数updateInventory，比较并更新存储在二维数组中的库存与新库存的二维数组。更新现有库存项目的数量（在arr1中）。如果找不到该项，则将新的项目和数量添加到库存数组中。返回的库存数组应按项字母顺序排列。函数updateInventory应返回一个数组。</h5><h5 id="解决方案："><a href="#解决方案：" class="headerlink" title="解决方案："></a>解决方案：</h5><h6 id="首先将两个数组合并为一个数组，然后使用reduce函数对数组进行迭代，对每个元素进行处理："><a href="#首先将两个数组合并为一个数组，然后使用reduce函数对数组进行迭代，对每个元素进行处理：" class="headerlink" title="首先将两个数组合并为一个数组，然后使用reduce函数对数组进行迭代，对每个元素进行处理："></a>首先将两个数组合并为一个数组，然后使用reduce函数对数组进行迭代，对每个元素进行处理：</h6><h6 id="1-如果该项已存在于结果数组中，则增加其数量值。"><a href="#1-如果该项已存在于结果数组中，则增加其数量值。" class="headerlink" title="1.如果该项已存在于结果数组中，则增加其数量值。"></a>1.如果该项已存在于结果数组中，则增加其数量值。</h6><h6 id="2-如果不存在，则将新项目添加到结果数组中。"><a href="#2-如果不存在，则将新项目添加到结果数组中。" class="headerlink" title="2.如果不存在，则将新项目添加到结果数组中。"></a>2.如果不存在，则将新项目添加到结果数组中。</h6><h6 id="最后，使用sort函数按名称对数组进行排序，以获得按字母顺序排序的最终结果。"><a href="#最后，使用sort函数按名称对数组进行排序，以获得按字母顺序排序的最终结果。" class="headerlink" title="最后，使用sort函数按名称对数组进行排序，以获得按字母顺序排序的最终结果。"></a>最后，使用sort函数按名称对数组进行排序，以获得按字母顺序排序的最终结果。</h6><h5 id="实现代码如下："><a href="#实现代码如下：" class="headerlink" title="实现代码如下："></a>实现代码如下：</h5><pre class=" language-javascript"><code class="language-javascript"><span class="token keyword">function</span> <span class="token function">updateInventory</span><span class="token punctuation">(</span>arr1<span class="token punctuation">,</span> arr2<span class="token punctuation">)</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+  <span class="token comment" spellcheck="true">// 将两个数组合并为一个数组</span>
+  <span class="token keyword">var</span> inventory <span class="token operator">=</span> arr1<span class="token punctuation">.</span><span class="token function">concat</span><span class="token punctuation">(</span>arr2<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  
+  <span class="token comment" spellcheck="true">// 使用reduce函数对数组进行迭代，对每个元素进行处理</span>
+  <span class="token keyword">var</span> result <span class="token operator">=</span> inventory<span class="token punctuation">.</span><span class="token function">reduce</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span>acc<span class="token punctuation">,</span> item<span class="token punctuation">)</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+    <span class="token comment" spellcheck="true">// 获取该项目在结果数组中的索引</span>
+    <span class="token keyword">var</span> index <span class="token operator">=</span> acc<span class="token punctuation">.</span><span class="token function">findIndex</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span>element<span class="token punctuation">)</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+      <span class="token keyword">return</span> element<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">===</span> item<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+    <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    
+    <span class="token comment" spellcheck="true">// 如果该项已存在于结果数组中，则增加其数量值</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>index <span class="token operator">!==</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+      acc<span class="token punctuation">[</span>index<span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">+</span><span class="token operator">=</span> item<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+    <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
+    <span class="token comment" spellcheck="true">// 如果不存在，则将新项目添加到结果数组中</span>
+    <span class="token keyword">else</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+      acc<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>item<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
+    
+    <span class="token keyword">return</span> acc<span class="token punctuation">;</span>
+  <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  
+  <span class="token comment" spellcheck="true">// 按名称对数组进行排序，以获得按字母顺序排序的最终结果</span>
+  result<span class="token punctuation">.</span><span class="token function">sort</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span>a<span class="token punctuation">,</span> b<span class="token punctuation">)</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>a<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">&lt;</span> b<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token keyword">return</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>a<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">></span> b<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token keyword">return</span> <span class="token number">1</span><span class="token punctuation">;</span>
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+  <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  
+  <span class="token keyword">return</span> result<span class="token punctuation">;</span>
+<span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
+
+<span class="token comment" spellcheck="true">// 测试</span>
+<span class="token keyword">var</span> curInv <span class="token operator">=</span> <span class="token punctuation">[</span>
+    <span class="token punctuation">[</span><span class="token number">21</span><span class="token punctuation">,</span> <span class="token string">"Bowling Ball"</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">,</span> <span class="token string">"Dirty Sock"</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token string">"Hair Pin"</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token punctuation">[</span><span class="token number">5</span><span class="token punctuation">,</span> <span class="token string">"Microphone"</span><span class="token punctuation">]</span>
+<span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+<span class="token keyword">var</span> newInv <span class="token operator">=</span> <span class="token punctuation">[</span>
+    <span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">,</span> <span class="token string">"Hair Pin"</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">,</span> <span class="token string">"Half-Eaten Apple"</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token punctuation">[</span><span class="token number">67</span><span class="token punctuation">,</span> <span class="token string">"Bowling Ball"</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token punctuation">[</span><span class="token number">7</span><span class="token punctuation">,</span> <span class="token string">"Toothpaste"</span><span class="token punctuation">]</span>
+<span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token function">updateInventory</span><span class="token punctuation">(</span>curInv<span class="token punctuation">,</span> newInv<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<h6 id="输出结果为：-88-“Bowling-Ball”-2-“Dirty-Sock”-3-“Hair-Pin”-3-“Half-Eaten-Apple”-5-“Microphone”-7-“Toothpaste”-。"><a href="#输出结果为：-88-“Bowling-Ball”-2-“Dirty-Sock”-3-“Hair-Pin”-3-“Half-Eaten-Apple”-5-“Microphone”-7-“Toothpaste”-。" class="headerlink" title="输出结果为：[[88, “Bowling Ball”], [2, “Dirty Sock”], [3, “Hair Pin”], [3, “Half-Eaten Apple”], [5, “Microphone”], [7, “Toothpaste”]]。"></a>输出结果为：[[88, “Bowling Ball”], [2, “Dirty Sock”], [3, “Hair Pin”], [3, “Half-Eaten Apple”], [5, “Microphone”], [7, “Toothpaste”]]。</h6>
                 
             </div>
             <hr/>
@@ -452,7 +503,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://github.com/foreseed/ridered2.github.io/foreseed/ridered2.github.io/2023/04/03/ji-xian/">https://github.com/foreseed/ridered2.github.io/foreseed/ridered2.github.io/2023/04/03/ji-xian/</a>
+                    <a href="https://github.com/foreseed/ridered2.github.io/foreseed/ridered2.github.io/2023/04/09/suan-fa/">https://github.com/foreseed/ridered2.github.io/foreseed/ridered2.github.io/2023/04/09/suan-fa/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -490,8 +541,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/foreseed/ridered2.github.io/tags/%E9%AB%98%E6%95%B0/">
-                                    <span class="chip bg-color">高数</span>
+                                <a href="/foreseed/ridered2.github.io/tags/%E7%AE%97%E6%B3%95/">
+                                    <span class="chip bg-color">算法</span>
                                 </a>
                             
                         </div>
@@ -574,6 +625,51 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
+                <a href="/foreseed/ridered2.github.io/2023/04/13/zu-jian-ku/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/foreseed/ridered2.github.io/medias/featureimages/17.jpg" class="responsive-img" alt="组件库">
+                        
+                        <span class="card-title">组件库</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2023-04-13
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            ridered
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/foreseed/ridered2.github.io/tags/Vue-cli/">
+                        <span class="chip bg-color">Vue-cli</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
                 <a href="/foreseed/ridered2.github.io/2023/04/08/bo-ke-gua-zai-yu-ming/">
                     <div class="card-image">
                         
@@ -590,9 +686,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2023-04-08
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-04-08
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -606,51 +702,6 @@
                     
                     <a href="/foreseed/ridered2.github.io/tags/%E5%9F%9F%E5%90%8D/">
                         <span class="chip bg-color">域名</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/foreseed/ridered2.github.io/2023/03/16/ying-yu-dan-ci/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/foreseed/ridered2.github.io/medias/featureimages/20.jpg" class="responsive-img" alt="英语单词">
-                        
-                        <span class="card-title">英语单词</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2023-03-16
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-user fa-fw"></i>
-                            ridered
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/foreseed/ridered2.github.io/tags/%E8%8B%B1%E8%AF%AD/">
-                        <span class="chip bg-color">英语</span>
                     </a>
                     
                 </div>
@@ -771,13 +822,6 @@
 
 </main>
 
-
-<script src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<script>
-    MathJax.Hub.Config({
-        tex2jax: {inlineMath: [['$', '$'], ['\\(', '\\)']]}
-    });
-</script>
 
 
 
